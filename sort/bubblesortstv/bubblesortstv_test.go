@@ -17,7 +17,7 @@ func TestBubbleSortStv(t *testing.T) {
 	t.Log("Test Case Valid")
 }
 
-func ExampleBubbleSortStv() {
+func ExamplebubbleSortStv() {
 	bubbleSortStv([]int{2, 1, 4, 6, 7, 0, 8}, "asc")
 	// Output : []int{0,1,2,4,6,7,8}
 }
