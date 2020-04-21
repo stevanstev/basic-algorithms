@@ -1,7 +1,7 @@
 package selectionsortstv
 
-//SelectionSortStv is a sort function for slice of int using selection sort algorithm
-func SelectionSortStv(n []int, sortType string) []int {
+//SelectionSort is a sort function for slice of int using selection sort algorithm
+func SelectionSort(n []int, sortType string) []int {
 	var result []int
 	var validateSortType bool
 	temp := 0
