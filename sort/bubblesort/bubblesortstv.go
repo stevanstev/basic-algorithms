@@ -1,4 +1,4 @@
-package main
+package bubblesortstv
 
 //BubbleSort function
 func BubbleSort(n []int, sortType string) []int {
@@ -35,8 +35,4 @@ func BubbleSort(n []int, sortType string) []int {
 	}
 
 	return result
-}
-
-func main() {
-	//
 }
