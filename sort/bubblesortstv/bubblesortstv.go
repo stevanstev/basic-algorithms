@@ -1,7 +1,7 @@
 package bubblesortstv
 
 //BubbleSortStv is a sort function for slice of int using bubble sort algorithm
-func BubbleSortStv(n []int, sortType string) []int {
+func bubbleSortStv(n []int, sortType string) []int {
 	sliceLen := len(n)
 
 	//4, 5, 1, 2, 3
