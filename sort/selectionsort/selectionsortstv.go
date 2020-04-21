@@ -1,7 +1,7 @@
-package bubblesortstv
+package selectionsortstv
 
-//BubbleSort function
-func BubbleSort(n []int, sortType string) []int {
+//SelectionSortStv is a sort function for slice of int using selection sort algorithm
+func SelectionSortStv(n []int, sortType string) []int {
 	var result []int
 	var validateSortType bool
 	temp := 0
